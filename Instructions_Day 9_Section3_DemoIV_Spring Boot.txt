@@ -1,0 +1,21 @@
+Please follow the following instructions for Day 9_Section3_Spring Boot
+
+1. Import all four java projects 'product-service', 'order-service', 'discovery-service' and 'edge-service'.  
+
+2. Go to the 'Window' option present on top navigation bar of the spring tool suite, click on the 'Show View' option and choose 'other...' from the drop down menu.
+
+3. Scroll down to the 'Spring' folder in popup window, choose the 'Boot Dashboard' option from the 'spring folder' dropdown and click on 'Open'.
+
+4. Now, you can see a dashboard 'Boot Dashboard' on the left bottom corner of your sts. Click on the 'local' drop down and now you can see all spring starter project under this drop down.
+
+5. To run your demo, first choose 'discovery-service' project from the 'local' dropdown and click on run option, present on the 'Boot Dashboard'.
+
+6. Similarly, run rest of the three projects 'edge-service', 'order-service' and 'product-service' from the boot dashboard. Now, all your services are running and it's time to test the services.
+
+7. Open the postman tool, click on import option and import required requests using given link "https://www.getpostman.com/collections/6aed54f3f9320b3b4ed3".
+
+8. A 'ThroughProxy' folder will be imported in the postman. Choose the 'Product copy' request first and run it by clicking on the 'Send' button. Scroll down the window to check the response of the request.
+   If response is 'true' then 'product service' is working fine'
+
+9. Choose the second request 'Order Creation' and run it as well by clicking on the 'Send' button. Check the response of the request by scolling down the window.
+   There might be a chance this request may fail couple of time as we discussed in the tutorial so, try to re-run it multiple times.    
